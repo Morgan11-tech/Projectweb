@@ -1,0 +1,98 @@
+body {
+  font-size: 16px;
+  color: grey;
+  background-color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav{
+  background-color: aqua;
+  border-radius: 0;
+  border: 0;
+}
+
+h1{
+  font-family: 'Viaoda Libre', cursive;
+  font-size: 3.5em;
+  margin-left: 30px;
+  color: rgb(75, 20, 147); 
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+h5{
+  margin-left: 30px;
+  color: rgb(75, 20, 147);
+}
+#nav-list{
+  margin-top: 10px;
+  
+}
+#nav-list a{
+  color: blue;
+  margin-left: 5px;
+  
+}
+#nav-list a:hover{
+  color: blueviolet;
+}
+#phone{
+  color: blue;
+  text-align: right;
+  padding-right: 15px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 1px solid rgb(75, 20, 147);
+}
+#collapsable-nav span{
+  font-size: 1em;
+  
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/*main body begins, the main picture is called jumbotron in bootsrap*/
+.container .jumbotron{
+  padding: 0px;
+  margin-top: 30px;
+   
+}
+#menu-tile, #specials-tile, #map-tile{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover{
+  box-shadow:0 1px 5px 1px rgb(119, 225, 252);
+}
+
+#menu-tile{
+  background: url('../images/menu-tile.jpg') no-repeat;
+  background-position: center;
+}
+#specials-tile{
+  background: url('../images/specials-tile.jpg') no-repeat;
+  background-position: center;
+}
+#menu-tile span,#specials-tile span,#map-tile span{
+position: absolute;
+bottom: 0;
+right: 0;
+width: 100%;
+text-align: center;
+text-transform: capitalize;
+font-size: 1.2em;
+color: rgb(134, 131, 131);
+background-color: aquamarine;
+opacity: .8;
+}
+
+#menu-tile, #specials-tile{
+  width: 360px;
+  margin: 0 auto 15px;
+}
