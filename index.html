@@ -1,0 +1,108 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Resturant</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
+  </head>
+<body>
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+  <header>
+  <nav id="header-nav" class="navbar navbar-default" >
+      <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#"></a>
+             <a href="index.html"><h1>Project Restaurant!</h1></a>
+            <div><h5>Delicious homemade food</h5></div>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              </div>
+              <div id="collapsable-nav" class="collapse navbar-collapse">
+                <ul id="nav-list" class="nav navbar-nav navbar-right">
+                 <li>
+                   <a href="menu-categories.html">
+                     <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+                 </li>
+                 <li>
+                   <a href="#">
+                     <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+                 </li>
+                 <li>
+                   <a href="#">
+                     <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+                 </li>
+                 <li id="phone" class="hidden-xs">
+                   <a href="tel:055 135 1334">
+                    <span>055 135 1334</span>
+                   </a> 
+                 </li>
+          </div>  
+      </div>
+    </nav>
+  </header>
+
+<div id="main-content" class="container">
+    <div class="jumbotron">
+        <img src="download.jpeg" alt="Our humble Abode"
+        class="img-responsive ">
+    </div>
+</div>
+
+<div id="home-tiles" class="row">
+    <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="menu-categories.html"><div id="menu-tile"><span>menu</span></div></a>
+    </div>
+
+    <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="single-categories.html"><div id="specials-tile"><span>specials</span></div></a>
+    </div>
+    <div class="col-md-4 col-sm-12 col-xs-12">
+        <a href="https://goo.gl/maps/X1WnTu6zHazEnWx58"target="_blank"><div id="map-tile">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2492.4274960184134!2d-0.23246416870179232!3d5.68198277489733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9f5d99f5c041%3A0xc76340191aef30e!2sFood%20Yard!5e0!3m2!1sen!2sgh!4v1623868335050!5m2!1sen!2sgh" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <span>map</span></div></a>
+    </div>
+</div>
+</div>
+
+<footer>
+    <div class="panel-footer">
+        <div class="container">
+            <div class="row">
+                <section id="time" class="col-md-4">
+                    <span>Hours:</span><br>
+                    Mon-Wed: 8:00am-6:30pm<br>
+                    Thurs, Fri and Sat: 2:00pm-12:am<br>
+                    Sun: 8:00am till noon<br>
+                    <hr class="visible-xs">
+                </section>
+                <section id="address" class="col-md-4">
+                    <span>Address:</span><br>
+                    17 Atomic Hills Estate Street,Accra<br>
+                    <p>*No takebacks after delivery</p>
+                    <hr class="visible-xs">
+                </section>
+                <section id="testimonials" class="col-md-4">
+                    <span>Testimonials:</span><br>
+                   <p>"This place has the best food in all the seven realms"</p> 
+                   <p>"The food's great here. Couldn't ask for more!</p>
+                   <hr class="visible-xs">
+                </section>
+            </div>
+        </div>
+        <div class="text-center">&copy; Copyright Project Restaurant, 2021</div>
+    </div>
+</footer>
+</body>
+</html>
